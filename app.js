@@ -81,7 +81,3 @@ darkModeToggle.addEventListener("click", () => {
   }
 })
 
-
-document.getElementById("date").textContent = new Date().toLocaleDateString("uz-UZ", {
-  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-});
